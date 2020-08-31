@@ -21,7 +21,7 @@ dataset = tf.keras.utils.get_file(fname="aclImdb_v1.tar.gz",
 IMDB_DATADIR = os.path.join(os.path.dirname(dataset), 'aclImdb')
 ```
 
-<img src= "https://user-images.githubusercontent.com/66487971/91720203-641a6400-eb9f-11ea-8207-0f5315a49d68.png" width = 500>
+<img src= "https://user-images.githubusercontent.com/66487971/91720203-641a6400-eb9f-11ea-8207-0f5315a49d68.png" width = 1000>
 
 
 
