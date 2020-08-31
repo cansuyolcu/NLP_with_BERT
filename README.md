@@ -28,7 +28,7 @@ print(os.path.dirname(dataset))
 print(IMDB_DATADIR)
 ```
 
-<img src= "https://user-images.githubusercontent.com/66487971/91720351-a93e9600-eb9f-11ea-91b1-48174c24fe1c.png" width = 500>
+<img src= "https://user-images.githubusercontent.com/66487971/91720351-a93e9600-eb9f-11ea-91b1-48174c24fe1c.png" width = 250>
 
 **Creating the training and test sets**
 
@@ -52,7 +52,7 @@ model = text.text_classifier(name='bert',
                              
 ```
 
-<img src= "https://user-images.githubusercontent.com/66487971/91720640-2538de00-eba0-11ea-84c6-a366614515f9.png" width = 500>
+<img src= "https://user-images.githubusercontent.com/66487971/91720640-2538de00-eba0-11ea-84c6-a366614515f9.png" width = 250>
 
 
 
@@ -72,7 +72,11 @@ learner.fit_onecycle(lr=2e-5,
                      epochs=1)
 ```
 
-<img src= "https://user-images.githubusercontent.com/66487971/91720849-7648d200-eba0-11ea-8250-1822251dc46f.png" width = 800>
+<img src= "https://user-images.githubusercontent.com/66487971/91720849-7648d200-eba0-11ea-8250-1822251dc46f.png" width = 900>
+
+**I got 94 percent validation accuracy, pretty good.**
+
+## THIS CONCLUDES MY PROJECT HERE.THANKS FOR READING ALL THE WAY THROUGH.
 
 
 
